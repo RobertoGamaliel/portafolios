@@ -1,0 +1,20 @@
+.tecnoContainer{
+    width: 180px;
+    height: 112px;
+}
+
+.cont-img{
+    width: 180px;
+    height: 112px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.show-text{
+    opacity: 0;
+}
+
+.show-text:hover{
+    opacity: 1;
+}

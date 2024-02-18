@@ -1,0 +1,19 @@
+.gradient-grey-dark{
+    background-image: linear-gradient(to bottom , #d4d4d4, #a1a1a1, #6b6a6a, #494949, #2e2d2d, #151515);
+}
+
+.gradient-grey{
+    background-image: linear-gradient(to bottom ,#fafafa, #d4d4d4, #d4d4d4, #a1a1a1, #6b6a6a, #494949);
+}
+
+.gradient-grey-light{
+    background-image: linear-gradient(to bottom ,#ffffff, #f0f0f0, #c9c8c8, #cbcaca, #888787);
+}
+
+.gradient-orange{
+    background-image: linear-gradient(to bottom right, #facc00, #b19000,#866e01, #655300);
+}
+
+.gradient-dark{
+    background-image: linear-gradient(to bottom right, #979797, #555555,#383838, #161616);
+}

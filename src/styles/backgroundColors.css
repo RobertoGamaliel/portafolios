@@ -1,0 +1,46 @@
+.bg-red1{ background-color: rgb(255, 0, 0);}
+.bg-red2{ background-color: rgb(182, 1, 1);}
+.bg-red3{ background-color: rgb(128, 1, 1);}
+.bg-red4{ background-color: rgb(82, 0, 0);}
+
+.bg-yellow1{ background-color: rgb(238, 255, 0);}
+.bg-yellow2{ background-color: rgb(181, 194, 0);}
+.bg-yellow3{ background-color: rgb(97, 104, 0);}
+.bg-yellow4{ background-color: rgb(62, 66, 0);}
+
+.bg-amber1{ background-color: rgb(255, 196, 3);}
+.bg-amber2{ background-color: rgb(199, 153, 3);}
+.bg-amber3{ background-color: rgb(133, 102, 0);}
+.bg-amber4{ background-color: rgb(82, 63, 0);}
+
+.bg-orange1{ background-color: rgb(255, 125, 3);}
+.bg-orange2{ background-color: rgb(207, 102, 3);}
+.bg-orange3{ background-color: rgb(129, 63, 1);}
+.bg-orange4{ background-color: rgb(77, 37, 0);}
+
+.bg-green1{ background-color: rgb(72, 255, 0);}
+.bg-green2{ background-color: rgb(53, 184, 1);}
+.bg-green3{ background-color: rgb(35, 124, 0);}
+.bg-green4{ background-color: rgb(13, 46, 0);}
+
+.bg-blue1{ background-color: rgb(0, 110, 255);}
+.bg-blue2{ background-color: rgb(0, 71, 163);}
+.bg-blue3{ background-color: rgb(0, 48, 110);}
+.bg-blue4{ background-color: rgb(0, 21, 48);}
+
+.bg-purple1{ background-color: rgb(119, 0, 255);}
+.bg-purple2{ background-color: rgb(88, 1, 187);}
+.bg-purple3{ background-color: rgb(57, 1, 121);}
+.bg-purple4{ background-color: rgb(33, 0, 71);}
+
+.bg-black1{ background-color: rgb(0, 0, 0);}
+.bg-black2{ background-color: rgba(0, 0, 0, 0.75);}
+.bg-black3{ background-color: rgba(0, 0, 0, 0.6);}
+.bg-black4{ background-color: rgba(0, 0, 0, 0.4);}
+.bg-black5{ background-color: rgba(0, 0, 0, 0.15);}
+
+.bg-white1{ background-color: rgb(255, 255, 255);}
+.bg-white2{ background-color: rgba(255, 255, 255, 0.75);}
+.bg-white3{ background-color: rgba(255, 255, 255, 0.6);}
+.bg-white4{ background-color: rgba(255, 255, 255, 0.4);}
+.bg-white5{ background-color: rgba(255, 255, 255, 0.15);}
