@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist', // Carpeta de salida personalizada
+    outDir: 'docs',// Carpeta de salida personalizada
   },
 })
