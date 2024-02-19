@@ -20,7 +20,7 @@ import MainPage from './pages/mainPage';
 function App() {
   const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/portafolios',
         element: <MainPage/>,
         children: [
             {

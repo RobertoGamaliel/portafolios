@@ -21,32 +21,49 @@ import express from '../../assets/express.png';
 import typescript from '../../assets/typescript.jpg';
 
 const Tecnologias = () =>{
-    const data = [{image:laravel, estatus: '8/10'},{image:php, estatus: '8.5/10'},{image:flutter, estatus: '8.5/10'},{image:dart, estatus: '8/10'}
+    const [data, setdata] = useState([{image:laravel, estatus: '8/10'},{image:php, estatus: '8.5/10'},{image:flutter, estatus: '8.5/10'},{image:dart, estatus: '8/10'}
     ,{image:react, estatus: '8/10'},{image:Angular, estatus: '7/10'},{image:boostrap, estatus: '8/10'},{image:html5, estatus: '8.5/10'},
     {image:javascript, estatus: '8.5/10'},{image:css, estatus: '7.5/10'},{image:mysql, estatus: '7/10'},{image:sqlite, estatus: '8/10'},
     {image:firestore, estatus: '6.5/10'},{image:maps, estatus: '5/10'},{image:msj, estatus: '5/10'},{image:auth, estatus: '6/10'},
-    {image:node, estatus: '8/10'},{image:express, estatus: '8.5/10'},{image:typescript, estatus: '6.5/10'}];
-    useEffect(()=>{
-        
-    },[]);
+    {image:node, estatus: '8/10'},{image:express, estatus: '8.5/10'},{image:typescript, estatus: '6.5/10'}]);
+
+    useEffect(()=>{},[]);
+
+    const opacar = (image) =>{
+        let dt = [...data];
+        for (let i = 0; i < dt.length; i++) {
+            if(dt[i].image !== image) dt[i].opacity = 'opacitylow';
+        }
+        setdata(dt);
+    }
+
+    const limpiar = () =>{
+        let dt = [...data];
+        for (let i = 0; i < dt.length; i++) {
+            dt[i].opacity = '';
+        }
+        setdata(dt);
+    }
+    
     
     return(
-        <div className='col-lg-12 m-0 p-5 raleway'>
-            <div className='row justify-content-evenly'>
-                <div className='col-lg-12 text-center h3' style={{marginTop:'100px'}}>Tecnologías</div>
+        <div className={'col-lg-12 m-0 raleway '}>
+            <div className='col-lg-12 text-center dosis h2' style={{marginTop:'100px'}}>Tecnologías que utilizo</div>
+            <div className='row justify-content-evenly m-0 p-0'>
+                
                 {
                     data.map((dt,i) => {
                         return(
-                            <div className='tecnoContainer p-0 m-0 bg-white round-m relative scale m-2'>
-                                <img src={dt.image} className='cont-img round-m' />
-                                <p className='col-lg-12 tecnoContainer absolute top-left text-blue4 text-center show-text'>
-                                    <div className='col-lg-12 p-1 text-center bg-white3'>Nivel {dt.estatus}</div>
-                                </p>
+                            <div key={'tecno '+i} className={`tecnoContainer p-0 m-0 bg-white round-m relative scale m-2 child`} style={{overflow:'hidden'}} 
+                                onMouseEnter={()=>{opacar(dt.image)}} onMouseLeave={limpiar}>
+                                <img src={dt.image} className='cont-img round-m img-scale-scroll' />
+                                <div className='col-lg-12 tecnoContainer round-m absolute top-left text-blue3 text-bold text-center show-text'>
+                                    <div className='col-lg-12 p-1 text-center bg-white2'>Nivel {dt.estatus}</div>
+                                </div>
                             </div>
                         )
                     })
                 }
-                
             </div>
         </div>
     )

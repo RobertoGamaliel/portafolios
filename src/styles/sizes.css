@@ -88,6 +88,9 @@
 
 .overfow-x{overflow-x: auto;}
 
+.overflow-hide{overflow: hidden;}
+.overflow-y-hide{overflow-y: hidden;}
+.overflow-x-hide{overflow-x: hidden;}
 .wpx-50{width: 50px;}
 .wpx-100{width:100px;}
 .wpx-150{width:150px;}

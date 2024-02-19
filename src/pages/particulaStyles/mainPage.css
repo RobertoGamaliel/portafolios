@@ -125,20 +125,59 @@
     width: 400px;
 }
 
+.profile-image{
+    width: 350px;
+    height: 350px;
+}
+
+.gradient-radial {
+    background: radial-gradient(circle, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), rgb(32, 31, 31) ); 
+ }
+
+ .about-container{
+    width: 600px;
+ }
 @media (max-width: 1200px) {
     .section-container{
         width: 400px;
     }
+
+    .profile-image{
+        width: 280px;
+        height: 280px;
+    }
+
+    .about-container{
+        width: 470px;
+     }
 }
 
 @media (max-width: 960px) {
     .section-container{
         width: 450px;
     }
+    .profile-image{
+        width: 220px;
+        height: 220px;
+    }
+
+    .about-container{
+        width: 350px;
+     }
 }
 
 @media (max-width: 720px) {
     .section-container{
         width: 500px;
     }
+
+    .profile-image{
+        width: 170px;
+        height: 170px;
+    }
+
+    .about-container{
+        width: 350px;
+        font-size: small;
+     }
 }
