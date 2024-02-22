@@ -20,7 +20,7 @@ const MainPage = () =>{
     
     return(
         <div className=' bg-dark m-0 p-2 overflow' style={{width:'100%', height:"100vh"}}>
-            <div className='col-lg-12 m-0 p-0 round-top-m shadow overflow-hide' >
+            <div className='col-lg-12 m-0 p-0 round-top-m shadow overflow-hide ' >
                 <div className='row justify-content-center m-0 p-0'>
                     <div className='main-image-container m-0 p-0 relative contenedor'>
                         <img src={yo} className='p-0 m-0 circular-shape profile-image absolute top-left m-4 '/>
@@ -35,7 +35,7 @@ const MainPage = () =>{
             </div>
             <div className='row justify-content-evenly text-white m-0 p-0 overflow-hide' >
                 
-                <div className='justify raleway p-3  mt-0  mt-5 shadow round-s scale-025 bg-black5 about-container'>   
+                <div className='justify raleway p-3  mt-0  mt-5 shadow round-s scale-025 bg-black5 about-container backContainer'>   
                     <div className='col-lg-12 text-start raleway h3 ps-0'>Sobre Mí</div>
                         ¡Hola! Soy Roberto Gamaliel, apasionado de la programación. Actualmente, trabajo en desarrollo web y también creo aplicaciones móviles para Android utilizando Flutter. Mi objetivo es fusionar mi habilidad técnica con mi creatividad para desarrollar aplicaciones y sitios web que no solo sean funcionales, sino también impactantes, fáciles de usar y altamente útiles para el usuario final.
                     <div className='col-lg-12 justify raleway  ps-0 mt-4'>

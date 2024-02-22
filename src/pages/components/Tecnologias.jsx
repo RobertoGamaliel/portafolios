@@ -21,11 +21,11 @@ import express from '../../assets/express.png';
 import typescript from '../../assets/typescript.jpg';
 
 const Tecnologias = () =>{
-    const [data, setdata] = useState([{image:laravel, estatus: '8/10'},{image:php, estatus: '8.5/10'},{image:flutter, estatus: '8.5/10'},{image:dart, estatus: '8/10'}
-    ,{image:react, estatus: '8/10'},{image:Angular, estatus: '7/10'},{image:boostrap, estatus: '8/10'},{image:html5, estatus: '8.5/10'},
-    {image:javascript, estatus: '8.5/10'},{image:css, estatus: '7.5/10'},{image:mysql, estatus: '7/10'},{image:sqlite, estatus: '8/10'},
-    {image:firestore, estatus: '6.5/10'},{image:maps, estatus: '5/10'},{image:msj, estatus: '5/10'},{image:auth, estatus: '6/10'},
-    {image:node, estatus: '8/10'},{image:express, estatus: '8.5/10'},{image:typescript, estatus: '6.5/10'}]);
+    const [data, setdata] = useState([{image:laravel, estatus: '9/10'},{image:php, estatus: '9/10'},{image:flutter, estatus: '9/10'},{image:dart, estatus: '9/10'}
+    ,{image:react, estatus: '9/10'},{image:Angular, estatus: '8/10'},{image:boostrap, estatus: '9/10'},{image:html5, estatus: '9.5/10'},
+    {image:javascript, estatus: '9/10'},{image:css, estatus: '8.5/10'},{image:mysql, estatus: '8/10'},{image:sqlite, estatus: '8/10'},
+    {image:firestore, estatus: '7.5/10'},{image:maps, estatus: '7/10'},{image:msj, estatus: '6/10'},{image:auth, estatus: '7/10'},
+    {image:node, estatus: '9/10'},{image:express, estatus: '9/10'},{image:typescript, estatus: '7.5/10'}]);
 
     useEffect(()=>{},[]);
 
@@ -54,6 +54,7 @@ const Tecnologias = () =>{
                 {
                     data.map((dt,i) => {
                         return(
+                            
                             <div key={'tecno '+i} className={`tecnoContainer p-0 m-0 bg-white round-m relative scale m-2 child`} style={{overflow:'hidden'}} 
                                 onMouseEnter={()=>{opacar(dt.image)}} onMouseLeave={limpiar}>
                                 <img src={dt.image} className='cont-img round-m img-scale-scroll' />

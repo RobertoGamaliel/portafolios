@@ -135,7 +135,7 @@
  }
 
  .about-container{
-    width: 600px;
+    width: 45%;
  }
 @media (max-width: 1200px) {
     .section-container{
@@ -148,7 +148,7 @@
     }
 
     .about-container{
-        width: 470px;
+        width: 45%;
      }
 }
 
@@ -162,7 +162,7 @@
     }
 
     .about-container{
-        width: 350px;
+        width: 90%;
      }
 }
 
@@ -177,7 +177,8 @@
     }
 
     .about-container{
-        width: 350px;
+        width: 95%;
         font-size: small;
      }
 }
+
