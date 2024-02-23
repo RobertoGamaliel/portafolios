@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import image from '../assets/portada.png';
 import './particulaStyles/mainPage.css';
 import Tecnologias from './components/Tecnologias';
-import yo from '../assets/yo.jpeg';
+import yo from '../assets/yo.png';
 import Experiencia from './components/Experidncia';
 import Experiencia2 from './components/experiencia2';
 import './particulaStyles/tecnologias.css';
